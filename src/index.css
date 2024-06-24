@@ -1,0 +1,84 @@
+#root {
+  text-align: center;
+}
+
+.toggle-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #e0e0e0;
+}
+
+.toggle-button.active {
+  background-color: #61dafb;
+  border-color: #61dafb;
+  color: #fff;
+}
+
+.toggle-button:focus {
+  box-shadow: 0 0 0 3px rgba(97, 218, 251, 0.3);
+}
+
+.item-list {
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+}
+
+.toggle {
+  margin-top: 12px;
+}
+
+.user-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.inputs {
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.buttons-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-items p {
+  width: 40%;
+  text-align: left;
+}
+
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* .item-list {
+  margin-bottom: 10px;
+} */
